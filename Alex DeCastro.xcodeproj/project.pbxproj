@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA157B5D1AE5A4EC00A68DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157B5C1AE5A4EC00A68DA6 /* main.m */; };
+		FA157B601AE5A4EC00A68DA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157B5F1AE5A4EC00A68DA6 /* AppDelegate.m */; };
+		FA157B661AE5A4EC00A68DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA157B641AE5A4EC00A68DA6 /* Main.storyboard */; };
+		FA157B681AE5A4EC00A68DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA157B671AE5A4EC00A68DA6 /* Images.xcassets */; };
+		FA157B6B1AE5A4EC00A68DA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA157B691AE5A4EC00A68DA6 /* LaunchScreen.xib */; };
+		FA157B771AE5A4EC00A68DA6 /* Alex_DeCastroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157B761AE5A4EC00A68DA6 /* Alex_DeCastroTests.m */; };
+		FA157B811AE5A5D000A68DA6 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA157B801AE5A5D000A68DA6 /* WatchKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FA157B8B1AE5A65000A68DA6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157B8A1AE5A65000A68DA6 /* InterfaceController.swift */; };
+		FA157B8D1AE5A65000A68DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA157B8C1AE5A65000A68DA6 /* Images.xcassets */; };
+		FA157B911AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FA157B901AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app */; };
+		FA157B991AE5A65000A68DA6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA157B971AE5A65000A68DA6 /* Interface.storyboard */; };
+		FA157B9B1AE5A65000A68DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA157B9A1AE5A65000A68DA6 /* Images.xcassets */; };
+		FA157B9E1AE5A65000A68DA6 /* Alex DeCastro WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FA157B861AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA157BAA1AE5AEAD00A68DA6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157BA91AE5AEAD00A68DA6 /* MainViewController.m */; };
+		FA157BAD1AE5AEE400A68DA6 /* WordListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157BAC1AE5AEE400A68DA6 /* WordListModel.m */; };
+		FA157BB01AE5AF0300A68DA6 /* DataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157BAF1AE5AF0300A68DA6 /* DataHolder.m */; };
+		FA157BB31AE5AFBD00A68DA6 /* NSString+WSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA157BB21AE5AFBD00A68DA6 /* NSString+WSStringAdditions.m */; };
+		FA157BB51AE5B49500A68DA6 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA157BB41AE5B49500A68DA6 /* DataHolder.swift */; };
+		FA60C0E31AE5D790006A1637 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA60C0E21AE5D790006A1637 /* IntroViewController.m */; };
+		FA60C0E61AE5DF49006A1637 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA60C0E51AE5DF49006A1637 /* ContentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA157B711AE5A4EC00A68DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA157B4F1AE5A4EC00A68DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA157B561AE5A4EC00A68DA6;
+			remoteInfo = "Alex DeCastro";
+		};
+		FA157B921AE5A65000A68DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA157B4F1AE5A4EC00A68DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA157B8F1AE5A65000A68DA6;
+			remoteInfo = "Alex DeCastro WatchKit App";
+		};
+		FA157B9C1AE5A65000A68DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA157B4F1AE5A4EC00A68DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA157B851AE5A64F00A68DA6;
+			remoteInfo = "Alex DeCastro WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA157BA51AE5A65000A68DA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FA157B9E1AE5A65000A68DA6 /* Alex DeCastro WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA157B571AE5A4EC00A68DA6 /* Alex DeCastro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex DeCastro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA157B5B1AE5A4EC00A68DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA157B5C1AE5A4EC00A68DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA157B5E1AE5A4EC00A68DA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA157B5F1AE5A4EC00A68DA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA157B651AE5A4EC00A68DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA157B671AE5A4EC00A68DA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA157B6A1AE5A4EC00A68DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA157B701AE5A4EC00A68DA6 /* Alex DeCastroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alex DeCastroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA157B751AE5A4EC00A68DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA157B761AE5A4EC00A68DA6 /* Alex_DeCastroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alex_DeCastroTests.m; sourceTree = "<group>"; };
+		FA157B801AE5A5D000A68DA6 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		FA157B861AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Alex DeCastro WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA157B891AE5A64F00A68DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA157B8A1AE5A65000A68DA6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FA157B8C1AE5A65000A68DA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA157B901AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alex DeCastro WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA157B961AE5A65000A68DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA157B981AE5A65000A68DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FA157B9A1AE5A65000A68DA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA157BA61AE5A74900A68DA6 /* Alex DeCastro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Alex DeCastro.entitlements"; sourceTree = "<group>"; };
+		FA157BA71AE5A76300A68DA6 /* Alex DeCastro WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Alex DeCastro WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		FA157BA81AE5AEAD00A68DA6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FA157BA91AE5AEAD00A68DA6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FA157BAB1AE5AEE400A68DA6 /* WordListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListModel.h; sourceTree = "<group>"; };
+		FA157BAC1AE5AEE400A68DA6 /* WordListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListModel.m; sourceTree = "<group>"; };
+		FA157BAE1AE5AF0300A68DA6 /* DataHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHolder.h; sourceTree = "<group>"; };
+		FA157BAF1AE5AF0300A68DA6 /* DataHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHolder.m; sourceTree = "<group>"; };
+		FA157BB11AE5AFBD00A68DA6 /* NSString+WSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WSStringAdditions.h"; sourceTree = "<group>"; };
+		FA157BB21AE5AFBD00A68DA6 /* NSString+WSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WSStringAdditions.m"; sourceTree = "<group>"; };
+		FA157BB41AE5B49500A68DA6 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
+		FA60C0E11AE5D790006A1637 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		FA60C0E21AE5D790006A1637 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		FA60C0E41AE5DF49006A1637 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		FA60C0E51AE5DF49006A1637 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA157B541AE5A4EC00A68DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B811AE5A5D000A68DA6 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B6D1AE5A4EC00A68DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B831AE5A64F00A68DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA157B4E1AE5A4EC00A68DA6 = {
+			isa = PBXGroup;
+			children = (
+				FA157B801AE5A5D000A68DA6 /* WatchKit.framework */,
+				FA157B591AE5A4EC00A68DA6 /* Alex DeCastro */,
+				FA157B731AE5A4EC00A68DA6 /* Alex DeCastroTests */,
+				FA157B871AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension */,
+				FA157B941AE5A65000A68DA6 /* Alex DeCastro WatchKit App */,
+				FA157B581AE5A4EC00A68DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA157B581AE5A4EC00A68DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B571AE5A4EC00A68DA6 /* Alex DeCastro.app */,
+				FA157B701AE5A4EC00A68DA6 /* Alex DeCastroTests.xctest */,
+				FA157B861AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension.appex */,
+				FA157B901AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA157B591AE5A4EC00A68DA6 /* Alex DeCastro */ = {
+			isa = PBXGroup;
+			children = (
+				FA157BA61AE5A74900A68DA6 /* Alex DeCastro.entitlements */,
+				FA157B5E1AE5A4EC00A68DA6 /* AppDelegate.h */,
+				FA157B5F1AE5A4EC00A68DA6 /* AppDelegate.m */,
+				FA60C0E11AE5D790006A1637 /* IntroViewController.h */,
+				FA60C0E21AE5D790006A1637 /* IntroViewController.m */,
+				FA60C0E41AE5DF49006A1637 /* ContentViewController.h */,
+				FA60C0E51AE5DF49006A1637 /* ContentViewController.m */,
+				FA157BAE1AE5AF0300A68DA6 /* DataHolder.h */,
+				FA157BAF1AE5AF0300A68DA6 /* DataHolder.m */,
+				FA157BA81AE5AEAD00A68DA6 /* MainViewController.h */,
+				FA157BA91AE5AEAD00A68DA6 /* MainViewController.m */,
+				FA157BAB1AE5AEE400A68DA6 /* WordListModel.h */,
+				FA157BAC1AE5AEE400A68DA6 /* WordListModel.m */,
+				FA157B641AE5A4EC00A68DA6 /* Main.storyboard */,
+				FA157B671AE5A4EC00A68DA6 /* Images.xcassets */,
+				FA157B691AE5A4EC00A68DA6 /* LaunchScreen.xib */,
+				FA157B5A1AE5A4EC00A68DA6 /* Supporting Files */,
+				FA157BB11AE5AFBD00A68DA6 /* NSString+WSStringAdditions.h */,
+				FA157BB21AE5AFBD00A68DA6 /* NSString+WSStringAdditions.m */,
+			);
+			path = "Alex DeCastro";
+			sourceTree = "<group>";
+		};
+		FA157B5A1AE5A4EC00A68DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B5B1AE5A4EC00A68DA6 /* Info.plist */,
+				FA157B5C1AE5A4EC00A68DA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA157B731AE5A4EC00A68DA6 /* Alex DeCastroTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B761AE5A4EC00A68DA6 /* Alex_DeCastroTests.m */,
+				FA157B741AE5A4EC00A68DA6 /* Supporting Files */,
+			);
+			path = "Alex DeCastroTests";
+			sourceTree = "<group>";
+		};
+		FA157B741AE5A4EC00A68DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B751AE5A4EC00A68DA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA157B871AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA157BA71AE5A76300A68DA6 /* Alex DeCastro WatchKit Extension.entitlements */,
+				FA157BB41AE5B49500A68DA6 /* DataHolder.swift */,
+				FA157B8A1AE5A65000A68DA6 /* InterfaceController.swift */,
+				FA157B8C1AE5A65000A68DA6 /* Images.xcassets */,
+				FA157B881AE5A64F00A68DA6 /* Supporting Files */,
+			);
+			path = "Alex DeCastro WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FA157B881AE5A64F00A68DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B891AE5A64F00A68DA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA157B941AE5A65000A68DA6 /* Alex DeCastro WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B971AE5A65000A68DA6 /* Interface.storyboard */,
+				FA157B9A1AE5A65000A68DA6 /* Images.xcassets */,
+				FA157B951AE5A65000A68DA6 /* Supporting Files */,
+			);
+			path = "Alex DeCastro WatchKit App";
+			sourceTree = "<group>";
+		};
+		FA157B951AE5A65000A68DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA157B961AE5A65000A68DA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA157B561AE5A4EC00A68DA6 /* Alex DeCastro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA157B7A1AE5A4EC00A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro" */;
+			buildPhases = (
+				FA157B531AE5A4EC00A68DA6 /* Sources */,
+				FA157B541AE5A4EC00A68DA6 /* Frameworks */,
+				FA157B551AE5A4EC00A68DA6 /* Resources */,
+				FA157BA51AE5A65000A68DA6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA157B9D1AE5A65000A68DA6 /* PBXTargetDependency */,
+			);
+			name = "Alex DeCastro";
+			productName = "Alex DeCastro";
+			productReference = FA157B571AE5A4EC00A68DA6 /* Alex DeCastro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA157B6F1AE5A4EC00A68DA6 /* Alex DeCastroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA157B7D1AE5A4EC00A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastroTests" */;
+			buildPhases = (
+				FA157B6C1AE5A4EC00A68DA6 /* Sources */,
+				FA157B6D1AE5A4EC00A68DA6 /* Frameworks */,
+				FA157B6E1AE5A4EC00A68DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA157B721AE5A4EC00A68DA6 /* PBXTargetDependency */,
+			);
+			name = "Alex DeCastroTests";
+			productName = "Alex DeCastroTests";
+			productReference = FA157B701AE5A4EC00A68DA6 /* Alex DeCastroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA157B851AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA157BA21AE5A65000A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro WatchKit Extension" */;
+			buildPhases = (
+				FA157B821AE5A64F00A68DA6 /* Sources */,
+				FA157B831AE5A64F00A68DA6 /* Frameworks */,
+				FA157B841AE5A64F00A68DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA157B931AE5A65000A68DA6 /* PBXTargetDependency */,
+			);
+			name = "Alex DeCastro WatchKit Extension";
+			productName = "Alex DeCastro WatchKit Extension";
+			productReference = FA157B861AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FA157B8F1AE5A65000A68DA6 /* Alex DeCastro WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA157B9F1AE5A65000A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro WatchKit App" */;
+			buildPhases = (
+				FA157B8E1AE5A65000A68DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alex DeCastro WatchKit App";
+			productName = "Alex DeCastro WatchKit App";
+			productReference = FA157B901AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA157B4F1AE5A4EC00A68DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alex DeCastro";
+				TargetAttributes = {
+					FA157B561AE5A4EC00A68DA6 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3DWG4FX4EZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FA157B6F1AE5A4EC00A68DA6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FA157B561AE5A4EC00A68DA6;
+					};
+					FA157B851AE5A64F00A68DA6 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3DWG4FX4EZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FA157B8F1AE5A65000A68DA6 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3DWG4FX4EZ;
+					};
+				};
+			};
+			buildConfigurationList = FA157B521AE5A4EC00A68DA6 /* Build configuration list for PBXProject "Alex DeCastro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA157B4E1AE5A4EC00A68DA6;
+			productRefGroup = FA157B581AE5A4EC00A68DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA157B561AE5A4EC00A68DA6 /* Alex DeCastro */,
+				FA157B6F1AE5A4EC00A68DA6 /* Alex DeCastroTests */,
+				FA157B851AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension */,
+				FA157B8F1AE5A65000A68DA6 /* Alex DeCastro WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA157B551AE5A4EC00A68DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B661AE5A4EC00A68DA6 /* Main.storyboard in Resources */,
+				FA157B6B1AE5A4EC00A68DA6 /* LaunchScreen.xib in Resources */,
+				FA157B681AE5A4EC00A68DA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B6E1AE5A4EC00A68DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B841AE5A64F00A68DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B911AE5A65000A68DA6 /* Alex DeCastro WatchKit App.app in Resources */,
+				FA157B8D1AE5A65000A68DA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B8E1AE5A65000A68DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B991AE5A65000A68DA6 /* Interface.storyboard in Resources */,
+				FA157B9B1AE5A65000A68DA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA157B531AE5A4EC00A68DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157BAD1AE5AEE400A68DA6 /* WordListModel.m in Sources */,
+				FA157B601AE5A4EC00A68DA6 /* AppDelegate.m in Sources */,
+				FA157BB01AE5AF0300A68DA6 /* DataHolder.m in Sources */,
+				FA157B5D1AE5A4EC00A68DA6 /* main.m in Sources */,
+				FA60C0E61AE5DF49006A1637 /* ContentViewController.m in Sources */,
+				FA157BAA1AE5AEAD00A68DA6 /* MainViewController.m in Sources */,
+				FA157BB31AE5AFBD00A68DA6 /* NSString+WSStringAdditions.m in Sources */,
+				FA60C0E31AE5D790006A1637 /* IntroViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B6C1AE5A4EC00A68DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B771AE5A4EC00A68DA6 /* Alex_DeCastroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA157B821AE5A64F00A68DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA157B8B1AE5A65000A68DA6 /* InterfaceController.swift in Sources */,
+				FA157BB51AE5B49500A68DA6 /* DataHolder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA157B721AE5A4EC00A68DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA157B561AE5A4EC00A68DA6 /* Alex DeCastro */;
+			targetProxy = FA157B711AE5A4EC00A68DA6 /* PBXContainerItemProxy */;
+		};
+		FA157B931AE5A65000A68DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA157B8F1AE5A65000A68DA6 /* Alex DeCastro WatchKit App */;
+			targetProxy = FA157B921AE5A65000A68DA6 /* PBXContainerItemProxy */;
+		};
+		FA157B9D1AE5A65000A68DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA157B851AE5A64F00A68DA6 /* Alex DeCastro WatchKit Extension */;
+			targetProxy = FA157B9C1AE5A65000A68DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA157B641AE5A4EC00A68DA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA157B651AE5A4EC00A68DA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA157B691AE5A4EC00A68DA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA157B6A1AE5A4EC00A68DA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FA157B971AE5A65000A68DA6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA157B981AE5A65000A68DA6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA157B781AE5A4EC00A68DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA157B791AE5A4EC00A68DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA157B7B1AE5A4EC00A68DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alex DeCastro/Alex DeCastro.entitlements";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Alex DeCastro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA157B7C1AE5A4EC00A68DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alex DeCastro/Alex DeCastro.entitlements";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Alex DeCastro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA157B7E1AE5A4EC00A68DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alex DeCastroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex DeCastro.app/Alex DeCastro";
+			};
+			name = Debug;
+		};
+		FA157B7F1AE5A4EC00A68DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alex DeCastroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alex DeCastro.app/Alex DeCastro";
+			};
+			name = Release;
+		};
+		FA157BA01AE5A65000A68DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Alex_DeCastro_WatchKit_Extension;
+				INFOPLIST_FILE = "Alex DeCastro WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FA157BA11AE5A65000A68DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = Alex_DeCastro_WatchKit_Extension;
+				INFOPLIST_FILE = "Alex DeCastro WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FA157BA31AE5A65000A68DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Alex DeCastro WatchKit Extension/Alex DeCastro WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alex DeCastro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA157BA41AE5A65000A68DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Alex DeCastro WatchKit Extension/Alex DeCastro WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Alex DeCastro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA157B521AE5A4EC00A68DA6 /* Build configuration list for PBXProject "Alex DeCastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA157B781AE5A4EC00A68DA6 /* Debug */,
+				FA157B791AE5A4EC00A68DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA157B7A1AE5A4EC00A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA157B7B1AE5A4EC00A68DA6 /* Debug */,
+				FA157B7C1AE5A4EC00A68DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA157B7D1AE5A4EC00A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA157B7E1AE5A4EC00A68DA6 /* Debug */,
+				FA157B7F1AE5A4EC00A68DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA157B9F1AE5A65000A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA157BA01AE5A65000A68DA6 /* Debug */,
+				FA157BA11AE5A65000A68DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA157BA21AE5A65000A68DA6 /* Build configuration list for PBXNativeTarget "Alex DeCastro WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA157BA31AE5A65000A68DA6 /* Debug */,
+				FA157BA41AE5A65000A68DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA157B4F1AE5A4EC00A68DA6 /* Project object */;
+}
